@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route, useLocation } from "react-router-dom";
 import { accessToken, logout } from "./spotify";
-import { Login, Profile } from "./pages";
+import { Login, Profile, TopArtists, TopTracks, Playlists, Playlist } from "./pages";
 import { GlobalStyle } from "./styles";
 import styled from "styled-components/macro";
 
@@ -55,16 +55,16 @@ function App() {
 
 						<Switch>
 							<Route path="/top-artists">
-								<h1>Top Artists</h1>
+								<TopArtists />
 							</Route>
 							<Route path="/top-tracks">
-								<h1>Top Tracks</h1>
+								<TopTracks />
 							</Route>
 							<Route path="/playlists/:id">
-								<h1>Playlist</h1>
+								<Playlist />
 							</Route>
 							<Route path="/playlists">
-								<h1>Playlists</h1>
+								<Playlists />
 							</Route>
 							<Route path="/">
 								<Profile />
