@@ -175,7 +175,8 @@ const Nav = () => (
       <a
         href="https://github.com/BrandonArgel/spotify-profile"
         target="_blank"
-        rel="noopener noreferrer">
+        rel="noopener noreferrer"
+      >
         <IconGithub />
       </a>
     </Github>
