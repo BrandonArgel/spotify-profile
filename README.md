@@ -38,7 +38,7 @@ Built with a bunch of things, but to name a few:
 3. Push to Heroku
 
    ```bash
-   git push heroku master
+   git push heroku main
    ```
 
 4. Add `http://app-name.herokuapp.com/callback` as a Redirect URI in the spotify application settings

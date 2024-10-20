@@ -19,7 +19,7 @@
       "pure": true
     }
   },
-  "homepage": "https://spotify-profile.herokuapp.com",
+  "homepage": "https://brand-spotify-profile.herokuapp.com",
   "proxy": "http://localhost:8888",
   "scripts": {
     "start": "react-scripts start",
